@@ -1,6 +1,6 @@
 state={
-	id=807
-	name="STATE_807"
+	id=808
+	name="STATE_808"
 	manpower = 473433
 
 	state_category = town
@@ -8,21 +8,22 @@ state={
 	history={
 		owner = ISR
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 2
-			air_base = 2
+			12049 = {
+				naval_base = 4
+			}
 		}
 		victory_points = {
-			1065 1
+			12049 5
 		}
 		victory_points = {
-			4206 15
+			4073 3
 		}
-		add_core_of = PAL
-		add_core_of = ISR
+		add_core_of = EGY
 	}
 	
 	provinces={
-		4088 4206 1201 1065 7107
+		12049 4073 1155 9947
 	}
 }
