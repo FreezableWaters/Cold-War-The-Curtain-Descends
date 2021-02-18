@@ -1,0 +1,18 @@
+version="1.0"
+tags={
+	"Alternative History"
+	"Events"
+	"Fixes"
+	"Gameplay"
+	"Graphics"
+	"Historical"
+	"Ideologies"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Sound"
+	"Technologies"
+	"Utilities"
+}
+name="Cold War: The Curtain Descends"
+supported_version="1.10.4"
