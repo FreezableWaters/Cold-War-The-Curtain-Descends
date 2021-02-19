@@ -18,34 +18,6 @@ set_technology = {
 	fuel_silos = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		disarmed_nation
-		HUN_treaty_of_triannon
-	}
-}
-
-if = {
-	limit = {
-		#has_dlc = Battle for the Bosporus
-	}
-	add_opinion_modifier = { 
-		target = CZE
-		modifier = BFTB_incongruous_neighbors
-	}
-	add_opinion_modifier = { 
-		target = ROM
-		modifier = BFTB_incongruous_neighbors
-	}
-	add_opinion_modifier = { 
-		target = YUG
-		modifier = BFTB_incongruous_neighbors
-	}
-}
-
 1939.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
 
@@ -55,23 +27,6 @@ if = {
 		limit = {
 			has_dlc = "Death or Dishonor"
 		}
-		complete_national_focus = HUN_economic_intervention
-		complete_national_focus = HUN_secret_rearmament
-		complete_national_focus = HUN_war_games
-		complete_national_focus = HUN_theoretical_air_efforts
-		complete_national_focus = HUN_trade_deal_with_germany
-		complete_national_focus = HUN_joint_aluminum_mining_company
-		complete_national_focus = HUN_reaffirm_territorial_claims
-		complete_national_focus = HUN_announce_the_gyor_program
-		complete_national_focus = HUN_civilian_industry
-		complete_national_focus = HUN_reintegrate_the_railroads
-		complete_national_focus = HUN_invite_foreign_investors
-		complete_national_focus = HUN_bled_agreement
-		complete_national_focus = HUN_army_maneuvers
-		complete_national_focus = HUN_establish_the_air_force
-		complete_national_focus = HUN_demand_southern_slovakia
-		complete_national_focus = HUN_mobile_focus
-		complete_national_focus = HUN_license_foreign_designs
 		
 		#Handle this manually
 		unlock_national_focus = HUN_renounce_the_treaty_of_trianon
@@ -143,15 +98,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	democratic = 31
+	fascism = 2
+	neutrality = 5
+	communsim = 62
 }
 
 #Start Horty as neutral if DOD
@@ -208,39 +164,6 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		#
-	}
-}
-
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		#Remove neutral Horty add fascist
-		retire_country_leader = yes
-		create_country_leader = {
-			name = "Miklós Horthy"
-			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "Portrait_Hungary_Miklos_Horthy.dds"
-			expire = "1965.1.1"
-			ideology = fascism_ideology
-			traits = {
-				anti_communist
-			}
-			id = 503 #Horty fascist
-		}
-	}
-
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1939.5.29"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 27
-		fascism = 70
-		communism = 3
 	}
 }
 
