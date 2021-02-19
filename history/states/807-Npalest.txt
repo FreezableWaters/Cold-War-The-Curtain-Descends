@@ -1,9 +1,7 @@
+
 state={
 	id=807
 	name="STATE_807"
-	manpower = 473433
-
-	state_category = town
 
 	history={
 		owner = ISR
@@ -11,18 +9,23 @@ state={
 			infrastructure = 6
 			industrial_complex = 2
 			air_base = 2
+
 		}
 		victory_points = {
-			1065 1
+			1065 1 
 		}
 		victory_points = {
-			4206 15
+			4206 15 
 		}
 		add_core_of = PAL
 		add_core_of = ISR
+
 	}
-	
+
 	provinces={
-		4088 4206 1201 1065 7107
+		1015 1065 1201 4088 4206 7107 7176 11970 
 	}
+	manpower=473433
+	buildings_max_level_factor=1.000
+	state_category=town
 }
