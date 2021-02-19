@@ -269,15 +269,49 @@ set_popularities = {
 	communism = 88
 }
 
-create_faction = Comintern
+create_faction = Warsaw Pact
 add_to_faction = SOV
 add_to_faction = MON
-add_to_faction = TAN
+add_to_faction = HUN
+add_to_faction = CZE
+add_to_faction = ROM
+add_to_faction = POL
+add_to_faction = DDR
+add_to_faction = ALB
+add_to_faction = BUL
 
 
 add_ideas = {
-	trotskyite_plot
 	home_of_revolution
+}
+
+set_autonomy = {
+	target = HUN
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = CZE
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = POL
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = ROM
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = DDR
+	autonomous_state = autonomy_colony
+}
+set_autonomy = {
+	target = BUL
+	autonomous_state = autonomy_puppet
+}
+set_autonomy = {
+	target = ALB
+	autonomous_state = autonomy_dominion
 }
 
 create_country_leader = {
