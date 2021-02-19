@@ -22,17 +22,17 @@ set_technology = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	neutrality = 20
+	democratic = 20
+	neutrality = 10
 	fascism = 5
-	communism = 10
+	communism = 65
 }
 
 create_country_leader = {
@@ -120,8 +120,7 @@ if = {
 		CZE_skoda_works
 		CZE_divided_nation
 }
-	give_guarantee = YUG
-	give_guarantee = ROM
+		
 }
 
 if = {
