@@ -7,9 +7,6 @@ ideologies = {
 			conservatism = {
 			}
 		
-			liberalism = {
-			}
-		
 			socialism = {
 			}
 		}
@@ -291,6 +288,7 @@ ideologies = {
 	maoism = {
 		
 		types = {
+		
 			maoism ={
 			}
 		}
@@ -328,7 +326,7 @@ ideologies = {
 		}
 		
 		faction_modifiers = {
-			
+			#
 		}
 
 	}
